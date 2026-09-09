@@ -39,7 +39,7 @@ spam_detector/
    Open `http://127.0.0.1:5000` in your browser, type a message, and click
    "Check Message" to see the prediction with a confidence score.
 
-## How It Works (for your report / viva)
+## How It Works
 
 1. **Data**: Each row is a message labeled `spam` or `ham` (not spam).
 2. **Text → Numbers (TF-IDF)**: `TfidfVectorizer` converts each message into
@@ -53,7 +53,7 @@ spam_detector/
 5. **Serving**: Flask loads the saved model + vectorizer once, then predicts
    on-demand for whatever message the user submits through the form.
 
-## Improving It Further (optional extensions to mention in viva)
+## Improving It Further 
 - Swap in a larger real-world dataset — e.g. the **SMS Spam Collection**
   dataset from Kaggle/UCI (5,500+ messages) — for much higher accuracy.
   Just replace `data/spam.csv` with the same two columns (`label`, `message`).
