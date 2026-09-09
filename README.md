@@ -224,9 +224,8 @@ The basic spam detection system is functional, and additional features and impro
 
 👩‍💻 Author
 
-Your Name
+Shreya Gautam
 
-B.Tech — Computer Science & Engineering
-⭐ If You Like This Project
+B.Tech — Computer Science & Engineering(AI/ML)
 If you found this project useful or interesting, consider giving the repository a ⭐ on GitHub!
 
